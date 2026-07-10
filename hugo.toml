@@ -31,7 +31,7 @@ enableRobotsTXT = true
 [params]
   title = 'aiaioli'
   author = 'Tish'
-  description = "nobody would fake evidence this stupid"
+  description = "\"nobody would fake evidence this stupid.\""
   keywords = ['knowledge graph', 'criticism', 'cartography', 'aiaioli']
   dateFormat = '2 January 2006'
   math = true
