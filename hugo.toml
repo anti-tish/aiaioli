@@ -31,7 +31,7 @@ enableRobotsTXT = true
 [params]
   title = 'aiaioli'
   author = 'Tish'
-  description = "one woman's would-be descent into AI psychosis"
+  description = "nobody would fake evidence this stupid"
   keywords = ['knowledge graph', 'criticism', 'cartography', 'aiaioli']
   dateFormat = '2 January 2006'
   math = true
@@ -42,7 +42,7 @@ enableRobotsTXT = true
   customCSS = ['css/custom.css']
   customJS = []
   # the seam: the one link back into the specimen (the Quartz wiki)
-  footnote = 'the editor annotating the specimen · <a class="link" href="https://anti-tish.github.io/quartz-tishtanica/">↗ the wiki</a>'
+  footnote = 'the editor annotating the specimen · <a class="link" href="https://anti-tish.github.io/aiaioli-wiki/">↗ the wiki</a>'
 
 [[menu.main]]
   name = 'posts'
