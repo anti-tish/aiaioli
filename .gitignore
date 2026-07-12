@@ -4,3 +4,6 @@ public
 resources
 .hugo_build.lock
 drafts/
+
+# generated-original drafts — local archive, NEVER pushed (public repo; draft:true doesn't gate source)
+drafts_gen/
