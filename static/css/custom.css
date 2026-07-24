@@ -32,3 +32,41 @@
     display: block;
   }
 }
+
+/* the citation sidebar — cited wiki nodes + Tish's per-post glosses.
+   DEFAULT = a tidy block under the post (works at every width, never overflows — "linking at
+   the bottom"). Only on genuinely wide screens (>=1400px, where the right gutter is actually
+   wide enough) does it float into the margin as "the little sidebar". This ordering is on
+   purpose: a horizontal scrollbar is never acceptable, so the safe layout is the default and
+   the margin float is the progressive enhancement. */
+.cites {
+  margin: 2.5rem 0 0;
+  padding-top: 0.6rem;
+  border-top: 2px solid currentColor;
+  font-size: 0.8rem;
+  line-height: 1.5;
+}
+.cites-head {
+  font-style: italic;
+  letter-spacing: 0.02em;
+  opacity: 0.55;
+  margin-bottom: 0.6rem;
+}
+.cite { margin-bottom: 0.9rem; }
+.cite-link { font-weight: 600; }
+.cite-gloss { opacity: 0.75; margin-top: 0.15rem; }
+.cite-gloss p { margin: 0.15rem 0; }
+@media (min-width: 1400px) {
+  .cites {
+    float: right;
+    clear: right;
+    width: 13rem;
+    margin: 0.4rem -14.5rem 0 0;   /* pull into the right gutter, like .marginnote */
+    padding-top: 0;
+    border-top: none;
+  }
+  .cites-head {
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid currentColor;
+  }
+}

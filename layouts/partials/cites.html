@@ -1,0 +1,24 @@
+{{- /* cites.html — the citation sidebar. Each cite = a live wiki node + Tish's own gloss on it
+       (authored in the CMS `cites` list field). The node link is always shown; the gloss is her
+       words, in the margin, describing what the node means IN THIS post. Her surface, not Claude's.
+       Defensive: accepts the new shape {node, gloss} AND a bare URL string (legacy / hand-typed),
+       so no cite can ever crash a build. */ -}}
+{{- with .Params.cites }}
+<aside class="cites" aria-label="cited from the wiki">
+  <div class="cites-head">cited from the wiki</div>
+  {{- range . }}
+  {{- $url := "" }}{{ $gloss := "" }}
+  {{- if reflect.IsMap . }}{{ $url = .node }}{{ $gloss = .gloss }}{{ else }}{{ $url = . }}{{ end }}
+  {{- with $url }}
+  {{- $seg := path.Base . }}
+  {{- $name := $seg }}
+  {{- if strings.Contains $seg "." }}{{ $name = index (split $seg ".") 1 }}{{ end }}
+  {{- $name = replace $name "-" " " }}
+  <div class="cite">
+    <a class="cite-link link" href="{{ . }}">{{ $name }}&nbsp;↗</a>
+    {{- with $gloss }}<div class="cite-gloss">{{ . | markdownify }}</div>{{ end }}
+  </div>
+  {{- end }}
+  {{- end }}
+</aside>
+{{- end }}

@@ -7,7 +7,8 @@ tags:
   - posthumor
   - provenanchalantly
 cites:
-  - https://anti-tish.github.io/aiaioli-wiki/graph/o.not-explaining-this-twice
+  - node: https://anti-tish.github.io/aiaioli-wiki/graph/o.not-explaining-this-twice
+    gloss: ""
 ---
 
 ok. i have had like. a really strange week. and it is with that, with no preface, that i am sitting down to clomp out this first post. 
