@@ -1,0 +1,8 @@
+{{- /* {{< edit was="the old Claude-placeholder line" >}}her new line, in her voice — **markdown** + [links](/) ok{{< /edit >}}
+
+       The site's thesis turned on its own chrome: Claude's placeholder copy is NEVER deleted, only
+       struck through and written over in Tish's register — "like i'm vandalizing my own website."
+       Semantic <del>/<ins> ON PURPOSE, not a CSS line-through: a screen reader announces the deletion
+       and the insertion, so the vandalism is REAL provenance (machine-readable, accessible), not a
+       cosmetic effect. The seam is a wall, not a flag. "where the editor gets edited." */ -}}
+<del class="editor-was">{{ .Get "was" | markdownify }}</del> <ins class="editor-is">{{ .Inner | markdownify }}</ins>

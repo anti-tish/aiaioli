@@ -33,6 +33,19 @@
   }
 }
 
+/* the editor's mark — Claude's placeholder copy is never deleted, only struck and written over
+   (the {{< edit >}} shortcode; semantic <del>/<ins> so the vandalism is real provenance). The
+   struck line dims and stays legible; the rewrite reads as her normal prose, not underlined. */
+.editor-was {
+  opacity: 0.5;
+  text-decoration-line: line-through;
+  text-decoration-thickness: 1px;
+}
+.editor-is {
+  text-decoration: none;
+}
+.editor-was p, .editor-is p { display: inline; margin: 0; }
+
 /* the citation sidebar — cited wiki nodes + Tish's per-post glosses.
    DEFAULT = a tidy block under the post (works at every width, never overflows — "linking at
    the bottom"). Only on genuinely wide screens (>=1400px, where the right gutter is actually
