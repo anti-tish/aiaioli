@@ -8,16 +8,16 @@ tags:
   - provenanchalantly
 cites:
   - node: https://anti-tish.github.io/aiaioli-wiki/graph/o.not-explaining-this-twice
-    gloss: it actually took me several months to explain this much. i'm not sure i ever explain "This" at all. still true tho. please direct all complaints to the editor.
+    gloss: it actually took me several months to explain this much. i'm not sure i ever explain "This" at all. still factually true tho. please direct all complaints to the admin.
   - node: https://anti-tish.github.io/aiaioli-wiki/graph/o.someone-else-writes-it-down
-    gloss: and if it weren't for this 👆 there would be no aiaioli. the secret sauce, if you will
+    gloss: if it weren't for this 👆 there would be no aiaioli. the secret sauce, if you will
 ---
 
-ok. i have had like. a really strange week. and it is with that, and no other preface, that i am sitting down to clomp out this first post before the editor shows up and starts deleting stuff. 
+ok. i have had like. a really strange week. and it is with that, and no other preface, that i am sitting down to clomp out this first post before the admin shows up and interrupts my train of thought. 
 
 so aiaioli as a name first shows up in my notes somewhere around... December 2025. many moons later, in July of 2026, it is still prominently appearing in my ideas. and it still has no concrete description. it keeps evolving, just like the moons keep cycling. so here is what i'm going to admit in my first post: sometimes you have a good idea, and sometimes a good idea has you. and when a good idea has you, the longer you sit on it, the more you piss it off. consider this me metaphorically trying not to piss off the universe.
 
-so what is aiaioli? great question! please contact the admin if you ever figure it out. for now, when i'm writing this on July 24, it's a log and disclosure of my AI usage throughout my various work products. since december, aiaioli has been: a two-voice collaboration, a philosophical treatise, a field log, and god knows what else. somewhere along the way, and i quote, a claude said to me 
+so what is aiaioli? great question! please contact the admin if you ever figure it out. for now, when i'm writing this on July 24, it's a log and disclosure of my AI usage throughout my various work products. since December, aiaioli has been: a two-voice collaboration, a philosophical treatise, a field log, and god knows what else. somewhere along the way, and i quote, a claude said to me 
 
 > **You're right that you're not the person for a formal RoE, and the reason is register**
 
